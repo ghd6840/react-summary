@@ -5,13 +5,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 //import CommentList from './chapter_05/CommentList';
 // import Clock from './chapter_04/Clock';
-import NotificationList from './chapter_06/NotificationList';
+// import NotificationList from './chapter_06/NotificationList';
+import Accommodate from './chapter_07/Accommodate';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 
 ReactDOM.render(
   <React.StrictMode>
-    <NotificationList />
+    <Accommodate />
   </React.StrictMode>,
   document.getElementById('root')
 );
